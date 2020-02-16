@@ -1,0 +1,65 @@
+.share-poll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--main-font);
+
+    .copy-msg {
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    span {
+        text-align: center;
+        font-size: 1.6rem;
+        padding-right: 2rem;
+        font-weight: 700;
+    }
+
+    textarea {
+        padding: .5rem 0;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        font-size: 2.2rem;
+        resize: none;
+        text-align: center;
+        background-color: #ddd;
+        overflow: hidden;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        border: none;
+        border-radius: 15px;
+        background-color: var(--main-blue);
+        margin-left: 2rem;
+        transition: all .3s;
+
+        svg {
+            height: 40px;
+            width: 40px;
+            fill: #fff;
+            padding: 5px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.3);
+        }
+    
+        &:active {
+            transform: translateY(0px);
+            box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+        }
+    }
+}

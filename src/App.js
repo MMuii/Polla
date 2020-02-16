@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Switch, Route, Redirect } from 'react-router-dom';
+
+import Error404 from './components/Error404';
+import CreatePoll from './components/CreatePoll';
+import AnonymousPoll from './components/anonymousPoll/AnonymousPoll';
+
+import history from './history';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router history={history}>
+            <div className="App">
+                <Switch>
+                    <Redirect exact from="/" to="/create-poll" /> 
+                    <Route exact path="/create-poll" component={CreatePoll} />
+                    <Route exact path="/poll/:pollId" component={AnonymousPoll} />
+                    <Route exact path="/poll/:pollId/results" component={AnonymousPoll} />
+                    <Route path="/" component={() => <Error404 message="There is no URL you're looking for."/>} />
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

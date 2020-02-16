@@ -1,0 +1,40 @@
+.navbar {
+    &_container {
+        width: 60rem;
+        height: min-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &_logo {
+        font-size: 4.8rem;
+        color: #fff;
+        font-family: var(--header-font);
+        font-weight: 900;
+        font-style: italic;
+        cursor: pointer;
+    }
+
+    &_create-poll {
+        padding-top: 1.7rem;
+        color: #fff;
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .navbar {
+        &_container {
+            width: 40rem;
+        }
+    }
+} 

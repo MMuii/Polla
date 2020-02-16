@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+
+    font-size: 1.2rem;
+    color: #ddd;
+
+    z-index: 1;
+
+    a {
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;
+    }
+}
