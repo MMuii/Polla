@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/polla/static/css/main.8b2cd205.chunk.css",
-    "main.js": "/polla/static/js/main.780c410a.chunk.js",
-    "main.js.map": "/polla/static/js/main.780c410a.chunk.js.map",
-    "runtime-main.js": "/polla/static/js/runtime-main.30f3159c.js",
-    "runtime-main.js.map": "/polla/static/js/runtime-main.30f3159c.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/polla/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.bebf37c2.chunk.js": "/polla/static/js/2.bebf37c2.chunk.js",
-    "static/js/2.bebf37c2.chunk.js.map": "/polla/static/js/2.bebf37c2.chunk.js.map",
-    "index.html": "/polla/index.html",
-    "precache-manifest.06d49d68a910b235dcea88728455b6d4.js": "/polla/precache-manifest.06d49d68a910b235dcea88728455b6d4.js",
-    "service-worker.js": "/polla/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/polla/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.8b2cd205.chunk.css.map": "/polla/static/css/main.8b2cd205.chunk.css.map",
-    "static/media/copy.79032fbd.svg": "/polla/static/media/copy.79032fbd.svg"
+    "main.css": "/Polla/static/css/main.8b2cd205.chunk.css",
+    "main.js": "/Polla/static/js/main.780c410a.chunk.js",
+    "main.js.map": "/Polla/static/js/main.780c410a.chunk.js.map",
+    "runtime-main.js": "/Polla/static/js/runtime-main.f5218bc0.js",
+    "runtime-main.js.map": "/Polla/static/js/runtime-main.f5218bc0.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/Polla/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.eb78c780.chunk.js": "/Polla/static/js/2.eb78c780.chunk.js",
+    "static/js/2.eb78c780.chunk.js.map": "/Polla/static/js/2.eb78c780.chunk.js.map",
+    "index.html": "/Polla/index.html",
+    "precache-manifest.c71c8c0468d626ec753980b8c48c202c.js": "/Polla/precache-manifest.c71c8c0468d626ec753980b8c48c202c.js",
+    "service-worker.js": "/Polla/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/Polla/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.8b2cd205.chunk.css.map": "/Polla/static/css/main.8b2cd205.chunk.css.map",
+    "static/media/copy.79032fbd.svg": "/Polla/static/media/copy.79032fbd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30f3159c.js",
+    "static/js/runtime-main.f5218bc0.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.bebf37c2.chunk.js",
+    "static/js/2.eb78c780.chunk.js",
     "static/css/main.8b2cd205.chunk.css",
     "static/js/main.780c410a.chunk.js"
   ]
