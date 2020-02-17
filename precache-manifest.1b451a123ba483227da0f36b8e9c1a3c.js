@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98196f3e46c56975b44713b0439de01c",
+    "revision": "13628ae2b762b889b28645ac000363d9",
     "url": "/Polla/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Polla/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "1a5fb7e130d7820ac958",
+    "revision": "537372a60bec40ed9bb4",
     "url": "/Polla/static/css/main.8b2cd205.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Polla/static/js/2.eb78c780.chunk.js"
   },
   {
-    "revision": "1a5fb7e130d7820ac958",
-    "url": "/Polla/static/js/main.780c410a.chunk.js"
+    "revision": "537372a60bec40ed9bb4",
+    "url": "/Polla/static/js/main.dad52777.chunk.js"
   },
   {
     "revision": "04279d3f71bf901d9a65",
