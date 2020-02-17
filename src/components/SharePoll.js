@@ -4,20 +4,20 @@ import clipboard from 'clipboard-polyfill';
 
 class SharePoll extends React.Component {
     state = {
-        copyText: `polla.com${this.props.location.pathname}`,
+        copyText: `mmuii.github.io${this.props.location.pathname}`,
         style: { color: '#000' }
     }
 
     //copies poll url to clipboard
     copyToClipboard = () => {
-        clipboard.writeText(`polla.com${this.props.location.pathname}`);
+        clipboard.writeText(`polla.com/poll/NLZDYzL2z${this.props.location.pathname}`);
 
         //shows message that url has been successfully copied
         this.setState({ copyText: 'URL copied to clipboard!', style: { color: '#1a75ff'} });
 
         //after 1 second it shows poll url again
         setTimeout(() => {
-            this.setState({ copyText: `polla.com${this.props.location.pathname}`, style: { color: '#000'} });
+            this.setState({ copyText: `polla.com/poll/NLZDYzL2z${this.props.location.pathname}`, style: { color: '#000'} });
         }, 1000);
     }
 

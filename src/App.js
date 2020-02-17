@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Switch, Route, Redirect } from 'react-router-dom';
-
+import Error404 from './components/Error404';
 import CreatePoll from './components/CreatePoll';
 import AnonymousPoll from './components/anonymousPoll/AnonymousPoll';
 
@@ -14,8 +14,8 @@ function App() {
                     <Route exact path="/create-poll" component={CreatePoll} />
                     <Route exact path="/poll/:pollId" component={AnonymousPoll} />
                     <Route exact path="/poll/:pollId/results" component={AnonymousPoll} />
-                    <Redirect from="/" to="/create-poll" /> 
-
+                    <Redirect from="/Polla" to="/create-poll" /> 
+                    <Route path="/" component={() => <Error404 message="There is no URL you're looking for."/>} />
                 </Switch>
             </div>
         </Router>
