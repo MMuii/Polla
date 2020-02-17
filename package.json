@@ -1,11 +1,13 @@
 {
   "name": "Polla",
   "version": "0.1.0",
+  "homepage": "https://mmuii.github.io/Polla/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
     "clipboard-polyfill": "^2.8.6",
     "firebase": "^7.3.0",
+    "gh-pages": "^2.2.0",
     "hashids": "^2.1.0",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
